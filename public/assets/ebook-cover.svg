@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 860" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090E1A" />
+      <stop offset="40%" stop-color="#0B132B" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+    <linearGradient id="blueGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <radialGradient id="meshCenter" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#2563EB" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0B132B" stop-opacity="0" />
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="600" height="860" rx="16" fill="url(#bgGrad)" />
+  <rect width="600" height="860" rx="16" fill="url(#meshCenter)" />
+  
+  <!-- Subtle Grid Lines -->
+  <g stroke="#3B82F6" stroke-opacity="0.08" stroke-width="1">
+    <line x1="60" y1="0" x2="60" y2="860" />
+    <line x1="180" y1="0" x2="180" y2="860" />
+    <line x1="300" y1="0" x2="300" y2="860" />
+    <line x1="420" y1="0" x2="420" y2="860" />
+    <line x1="540" y1="0" x2="540" y2="860" />
+    <line x1="0" y1="120" x2="600" y2="120" />
+    <line x1="0" y1="260" x2="600" y2="260" />
+    <line x1="0" y1="400" x2="600" y2="400" />
+    <line x1="0" y1="560" x2="600" y2="560" />
+    <line x1="0" y1="720" x2="600" y2="720" />
+  </g>
+
+  <!-- Left Spine Accent -->
+  <rect x="0" y="0" width="22" height="860" rx="16" fill="#030712" fill-opacity="0.75" />
+  <line x1="22" y1="0" x2="22" y2="860" stroke="#3B82F6" stroke-opacity="0.3" stroke-width="1.5" />
+
+  <!-- Top Header / Brand -->
+  <g transform="translate(60, 64)">
+    <rect x="0" y="0" width="130" height="28" rx="6" fill="#1E293B" stroke="#3B82F6" stroke-opacity="0.4" stroke-width="1"/>
+    <text x="14" y="19" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#93C5FD" letter-spacing="1.5">MINDBYTE DIGITAL</text>
+    <text x="350" y="19" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#64748B" letter-spacing="1">EDITION 2026</text>
+  </g>
+
+  <!-- Central Visual Motif / AI Node Structure -->
+  <g transform="translate(300, 240)">
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#2563EB" stroke-opacity="0.2" stroke-width="1.5" stroke-dasharray="6 6" />
+    <circle cx="0" cy="0" r="64" fill="none" stroke="#60A5FA" stroke-opacity="0.3" stroke-width="1.5" />
+    <circle cx="0" cy="0" r="42" fill="#1E3A8A" fill-opacity="0.4" stroke="#93C5FD" stroke-width="2" />
+    
+    <!-- Central Icon/Symbol -->
+    <path d="M-18 8L0 -18L18 8M-12 0L12 0" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Orbiting nodes -->
+    <circle cx="-64" cy="0" r="6" fill="#3B82F6" />
+    <circle cx="64" cy="0" r="6" fill="#3B82F6" />
+    <circle cx="0" cy="-64" r="6" fill="#60A5FA" />
+    <circle cx="0" cy="64" r="6" fill="#60A5FA" />
+    <circle cx="45" cy="45" r="4" fill="#93C5FD" />
+    <circle cx="-45" cy="-45" r="4" fill="#93C5FD" />
+  </g>
+
+  <!-- Main Title Area -->
+  <g transform="translate(60, 410)">
+    <!-- Badge -->
+    <rect x="0" y="0" width="168" height="24" rx="4" fill="#1D4ED8" />
+    <text x="12" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="800" fill="#EFF6FF" letter-spacing="1.5">PRACTICAL GUIDEBOOK</text>
+
+    <!-- Main Title -->
+    <text x="0" y="66" font-family="system-ui, -apple-system, sans-serif" font-size="38" font-weight="900" fill="#FFFFFF" letter-spacing="-0.5">THE AI</text>
+    <text x="0" y="112" font-family="system-ui, -apple-system, sans-serif" font-size="44" font-weight="900" fill="#60A5FA" letter-spacing="-0.5">SHORTCUT</text>
+
+    <!-- Divider -->
+    <rect x="0" y="136" width="80" height="4" rx="2" fill="#3B82F6" />
+
+    <!-- Supporting line & Subtitle -->
+    <text x="0" y="170" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" fill="#93C5FD" letter-spacing="-0.2">
+      Learn Faster. Work Smarter. Save Time.
+    </text>
+    <text x="0" y="200" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="500" fill="#CBD5E1" line-height="1.5">
+      <tspan x="0" dy="0">A Practical Beginner’s Guide to Using AI</tspan>
+      <tspan x="0" dy="22">to Simplify Everyday Life &amp; Boost Productivity.</tspan>
+    </text>
+  </g>
+
+  <!-- Bottom Details Bar -->
+  <g transform="translate(60, 750)">
+    <rect x="0" y="0" width="480" height="52" rx="10" fill="#0F172A" stroke="#1E293B" stroke-width="1.5" />
+    
+    <text x="24" y="24" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700" fill="#F8FAFC">12 ACTIONABLE CHAPTERS</text>
+    <text x="24" y="40" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="400" fill="#94A3B8">Beginner Friendly • Real-World Workflows</text>
+
+    <rect x="360" y="12" width="98" height="28" rx="6" fill="#1E3A8A" stroke="#3B82F6" stroke-width="1" />
+    <text x="382" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="800" fill="#93C5FD">ONLY ₹79</text>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+{
+  "name": "THE AI SHORTCUT | MindByte",
+  "description": "THE AI SHORTCUT is a practical beginner's guide to using AI for learning, productivity, writing, research and everyday life. Get the ebook for ₹79.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

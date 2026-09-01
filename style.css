@@ -1,0 +1,109 @@
+/* MindByte - THE AI SHORTCUT Ebook Stylesheet */
+
+:root {
+  --color-brand-blue: #2563eb;
+  --color-brand-dark: #0b132b;
+  --color-slate-900: #0f172a;
+  --color-slate-800: #1e293b;
+  --color-slate-700: #334155;
+  --color-slate-600: #475569;
+  --color-slate-500: #64748b;
+  --color-slate-400: #94a3b8;
+  --color-slate-200: #e2e8f0;
+  --color-slate-100: #f1f5f9;
+  --color-slate-50: #f8fafc;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Space Grotesk', 'Plus Jakarta Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-sans);
+  background-color: var(--color-slate-50);
+  color: var(--color-slate-900);
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  line-height: 1.6;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding-bottom: 80px; /* Safe padding for sticky mobile CTA */
+}
+
+@media (min-width: 768px) {
+  body {
+    padding-bottom: 0;
+  }
+}
+
+/* Typography */
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* 3D Ebook Mockup Container */
+.ebook-3d-wrapper {
+  perspective: 1200px;
+}
+
+.ebook-3d-card {
+  transform: rotateY(-14deg) rotateX(4deg) scale(0.98);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+  box-shadow: -16px 20px 40px -10px rgba(11, 19, 43, 0.45);
+}
+
+.ebook-3d-card:hover {
+  transform: rotateY(-6deg) rotateX(2deg) scale(1.02);
+  box-shadow: -20px 24px 48px -8px rgba(37, 99, 235, 0.35);
+}
+
+/* Mobile Bottom Fixed CTA */
+.mobile-fixed-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(59, 130, 246, 0.3);
+  padding: 0.75rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .mobile-fixed-cta {
+    display: none !important;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .ebook-3d-card {
+    transform: none !important;
+  }
+}

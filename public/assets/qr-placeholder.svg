@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <rect width="400" height="400" rx="20" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="3"/>
+  
+  <!-- Outer Corner Position Markers -->
+  <!-- Top Left -->
+  <rect x="40" y="40" width="80" height="80" rx="10" fill="#0F172A" />
+  <rect x="54" y="54" width="52" height="52" rx="6" fill="#FFFFFF" />
+  <rect x="66" y="66" width="28" height="28" rx="3" fill="#2563EB" />
+
+  <!-- Top Right -->
+  <rect x="280" y="40" width="80" height="80" rx="10" fill="#0F172A" />
+  <rect x="294" y="54" width="52" height="52" rx="6" fill="#FFFFFF" />
+  <rect x="306" y="66" width="28" height="28" rx="3" fill="#2563EB" />
+
+  <!-- Bottom Left -->
+  <rect x="40" y="280" width="80" height="80" rx="10" fill="#0F172A" />
+  <rect x="54" y="294" width="52" height="52" rx="6" fill="#FFFFFF" />
+  <rect x="66" y="306" width="28" height="28" rx="3" fill="#2563EB" />
+
+  <!-- QR Matrix Mockup Pattern -->
+  <g fill="#1E293B">
+    <rect x="150" y="40" width="20" height="20" rx="3"/>
+    <rect x="190" y="40" width="40" height="20" rx="3"/>
+    <rect x="245" y="40" width="20" height="20" rx="3"/>
+
+    <rect x="150" y="70" width="30" height="20" rx="3"/>
+    <rect x="210" y="70" width="20" height="30" rx="3"/>
+    <rect x="245" y="80" width="20" height="20" rx="3"/>
+
+    <rect x="150" y="110" width="40" height="20" rx="3"/>
+    <rect x="200" y="110" width="30" height="20" rx="3"/>
+    <rect x="245" y="110" width="20" height="35" rx="3"/>
+
+    <rect x="40" y="145" width="20" height="30" rx="3"/>
+    <rect x="75" y="145" width="45" height="20" rx="3"/>
+    <rect x="135" y="145" width="30" height="30" rx="3"/>
+    <rect x="180" y="145" width="20" height="20" rx="3"/>
+    <rect x="215" y="145" width="45" height="20" rx="3"/>
+    <rect x="280" y="145" width="30" height="20" rx="3"/>
+    <rect x="325" y="145" width="35" height="30" rx="3"/>
+
+    <rect x="40" y="190" width="35" height="20" rx="3"/>
+    <rect x="90" y="180" width="30" height="40" rx="3"/>
+    <rect x="140" y="190" width="20" height="30" rx="3"/>
+    <rect x="180" y="180" width="40" height="45" rx="4" fill="#2563EB"/>
+    <rect x="235" y="190" width="30" height="20" rx="3"/>
+    <rect x="280" y="180" width="25" height="35" rx="3"/>
+    <rect x="320" y="190" width="40" height="20" rx="3"/>
+
+    <rect x="40" y="235" width="50" height="20" rx="3"/>
+    <rect x="105" y="235" width="20" height="30" rx="3"/>
+    <rect x="140" y="235" width="30" height="20" rx="3"/>
+    <rect x="240" y="230" width="30" height="30" rx="3"/>
+    <rect x="285" y="235" width="40" height="20" rx="3"/>
+    <rect x="340" y="235" width="20" height="30" rx="3"/>
+
+    <rect x="140" y="280" width="30" height="30" rx="3"/>
+    <rect x="185" y="280" width="20" height="20" rx="3"/>
+    <rect x="220" y="280" width="45" height="20" rx="3"/>
+    <rect x="280" y="280" width="20" height="30" rx="3"/>
+    <rect x="315" y="280" width="45" height="20" rx="3"/>
+
+    <rect x="140" y="325" width="45" height="35" rx="3"/>
+    <rect x="200" y="320" width="30" height="20" rx="3"/>
+    <rect x="245" y="320" width="20" height="40" rx="3"/>
+    <rect x="280" y="325" width="35" height="35" rx="3"/>
+    <rect x="330" y="320" width="30" height="40" rx="3"/>
+  </g>
+
+  <!-- Center Verification Logo Pill -->
+  <g transform="translate(160, 160)">
+    <rect width="80" height="80" rx="14" fill="#0B132B" stroke="#2563EB" stroke-width="2"/>
+    <text x="40" y="44" font-family="system-ui, sans-serif" font-size="12" font-weight="800" fill="#60A5FA" text-anchor="middle">MINDBYTE</text>
+    <text x="40" y="58" font-family="system-ui, sans-serif" font-size="9" font-weight="600" fill="#93C5FD" text-anchor="middle">₹79 PAY</text>
+  </g>
+</svg>
