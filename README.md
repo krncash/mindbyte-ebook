@@ -48,25 +48,17 @@ If you want to display your UPI payment QR code directly:
 
 ---
 
-## 🌐 How to Deploy to GitHub Pages (100% Free)
+## 🌐 How to Deploy to GitHub Pages with GitHub Actions
 
-GitHub Pages allows you to host this website completely for free in under 2 minutes:
+This repository is pre-configured with a GitHub Actions workflow at `.github/workflows/deploy.yml` for automated deployment.
 
-### Method A: Direct Repository Upload (Simplest)
-1. Go to [GitHub.com](https://github.com) and create a new public repository (e.g., `mindbyte-ebook`).
-2. Upload all the files from this folder (`index.html`, `style.css`, `script.js`, `assets/`, `README.md`).
-3. Click **Settings** in your GitHub repository toolbar.
-4. In the left sidebar, click **Pages** (under the "Code and automation" section).
-5. Under **Build and deployment** > **Source**, choose **Deploy from a branch**.
-6. Set **Branch** to `main` (or `master`) and folder to `/ (root)`, then click **Save**.
-7. Wait 30–60 seconds. GitHub will give you your live URL (e.g., `https://yourusername.github.io/mindbyte-ebook/`).
-
-### Method B: Vite Production Build
-If you are developing using Vite:
-1. Run `npm install`
-2. Run `npm run build`
-3. The production-ready files will be generated in `dist/`.
-4. Deploy the contents of `dist/` to GitHub Pages.
+### 1-Click Setup:
+1. Push this repository to GitHub: `https://github.com/krncash/mindbyte-ebook`
+2. Go to your repository on GitHub and click **Settings**.
+3. In the left sidebar under "Code and automation", click **Pages**.
+4. Under **Build and deployment** > **Source**, select **GitHub Actions** (do NOT use "Deploy from a branch").
+5. On every push to the `main` branch, GitHub Actions will automatically install dependencies, build the Vite app with the `/mindbyte-ebook/` base path, and deploy the `dist/` folder to:
+   👉 **https://krncash.github.io/mindbyte-ebook/**
 
 ---
 

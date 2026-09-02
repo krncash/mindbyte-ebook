@@ -95,7 +95,7 @@ export const Hero: React.FC = () => {
               <div className="relative group z-10 w-full max-w-[240px]">
                 <div className="relative mx-auto rounded-2xl overflow-hidden shadow-2xl border border-white/20 transition-transform duration-300 group-hover:-translate-y-1 bg-white">
                   <img
-                    src="/assets/ebook-cover.svg"
+                    src={`${import.meta.env.BASE_URL}assets/ebook-cover.svg`}
                     alt="THE AI SHORTCUT Ebook Cover by MindByte"
                     className="w-full h-auto object-cover block rounded-2xl"
                     loading="eager"
