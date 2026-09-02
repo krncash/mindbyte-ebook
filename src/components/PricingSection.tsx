@@ -43,13 +43,26 @@ export const PricingSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Product Title */}
-          <h3 className="text-xl sm:text-2xl font-bold font-display text-white tracking-tight mb-1.5">
-            {CONFIG.productName}
-          </h3>
-          <p className="text-xs text-slate-400 mb-5 leading-relaxed">
-            {CONFIG.subtitle}
-          </p>
+          {/* Product Title & Cover Preview */}
+          <div className="flex items-start gap-4 mb-5">
+            <div className="w-16 h-22 sm:w-20 sm:h-28 rounded-xl overflow-hidden shadow-lg border border-slate-700/80 shrink-0 bg-white">
+              <img
+                src={`${import.meta.env.BASE_URL}assets/ebook-cover.png`}
+                alt="THE AI SHORTCUT Cover"
+                className="w-full h-full object-cover"
+                loading="lazy"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+            <div className="flex-1 min-w-0">
+              <h3 className="text-xl sm:text-2xl font-bold font-display text-white tracking-tight mb-1.5">
+                {CONFIG.productName}
+              </h3>
+              <p className="text-xs text-slate-400 leading-relaxed">
+                {CONFIG.subtitle}
+              </p>
+            </div>
+          </div>
 
           {/* Price Block */}
           <div className="flex items-baseline gap-3 py-4 border-y border-slate-800 mb-5">

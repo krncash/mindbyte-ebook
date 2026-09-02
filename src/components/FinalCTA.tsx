@@ -7,10 +7,21 @@ export const FinalCTA: React.FC = () => {
     <section className="py-16 sm:py-20 bg-[#0A0A0A] text-white relative overflow-hidden border-t border-slate-800">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         
-        {/* Badge */}
-        <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-400/30 text-blue-300 text-[10px] font-bold tracking-widest uppercase mb-5">
-          <Sparkles className="w-3 h-3 text-blue-400" />
-          <span>START YOUR AI JOURNEY</span>
+        {/* Badge & Ebook Mockup */}
+        <div className="flex flex-col items-center justify-center mb-6">
+          <div className="w-28 sm:w-32 rounded-2xl overflow-hidden shadow-2xl border border-white/20 mb-5 transform hover:scale-105 transition-transform duration-300 bg-white">
+            <img
+              src={`${import.meta.env.BASE_URL}assets/ebook-cover.png`}
+              alt="THE AI SHORTCUT"
+              className="w-full h-auto object-cover block"
+              loading="lazy"
+              referrerPolicy="no-referrer"
+            />
+          </div>
+          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-400/30 text-blue-300 text-[10px] font-bold tracking-widest uppercase">
+            <Sparkles className="w-3 h-3 text-blue-400" />
+            <span>START YOUR AI JOURNEY</span>
+          </div>
         </div>
 
         {/* Main Heading */}
